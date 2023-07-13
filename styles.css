@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    left: 0;
+    overflow-x: hidden;
+}
+
+
+
+.first-block .background-image{
+    background-image: url("https://w.forfun.com/fetch/55/55753cc36adde1a52b44167ba4f99915.jpeg?w=2000");
+}
+
+.second-block .background-image{
+    background-image: url("https://catherineasquithgallery.com/uploads/posts/2021-02/1612761021_116-p-goluboi-fon-more-177.jpg");
+}
+
+.third-block .background-image{
+    background-image: url("https://wallup.net/wp-content/uploads/2019/09/676800-forest-tree-landscape-nature.jpg");
+}
+
+.background-image {
+    width: 100%;
+    height: 100%;
+    filter: blur(5px);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.top-site{
+    width: 100vw;
+    height: 5vh;
+    background-color: black;
+}
+
+.block-site{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size:cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+.bottom-site{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 7vh;
+    background-color: rgba(53, 53, 53, 0.737);
+    color: rgba(255, 255, 255, 0.724);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: x-large;
+}
+
+.main-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    color: white;
+    font-weight: 800;
+    font-style: italic;
+    font-size: 40pt;
+    background-color: rgba(0, 0, 0, 0.142);
+    width: 100%;
+    height: 20%;
+}
+
+.minor-text{
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    color: white;
+    font-weight: 600;
+    font-size: 20pt;
+    width: 50%;
+    height: 20%;
+}
